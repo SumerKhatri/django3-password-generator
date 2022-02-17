@@ -1,0 +1,46 @@
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<center><h1>Password Generator</h1><center>
+<br>
+<br>
+  <form class="" action="password" >
+    <table>
+      <tr>
+    <td><h2>Select Length of the password:</h2></td>
+    <td >  <h2> <select class="" name="length">
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+          <option value="11">11</option>
+          <option value="12" selected="selected">12</option>
+          <option value="13">13</option>
+          <option value="14">14</option>
+      </select></h2></td>
+      </tr>
+      <tr>
+      <td><h2>Uppercase <input type="checkbox" name="uppercase" value=""></h2></td>
+      </tr>
+      <tr>
+      <td><h2>Special Characters <input type="checkbox" name="special" value=""></h2></td>
+      </tr>
+      <tr>
+      <td><h2>Numbers <input type="checkbox" name="number" value=""></h2></td>
+      </tr>
+      </table>
+      <h1><input type="submit" name="submit_pass" value="Generate Password" class="btn btn-primary"></h1>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+    <h2>  <a href="{% url 'about' %}" class="btn btn-warning">About</a></h2>
+
+  </form>
